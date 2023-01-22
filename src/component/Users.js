@@ -1,4 +1,4 @@
-import {Box ,Table,TableCell,TableHead,TableRow,Typography} from "@mui/material"
+import {Box ,Table,TableBody,TableCell,TableHead,TableRow,Typography} from "@mui/material"
 
 const Users = () => {
   return (
@@ -16,6 +16,16 @@ const Users = () => {
               <TableCell>Remove Entry</TableCell>
            </TableRow>
           </TableHead>
+          <TableBody>
+            <TableRow>
+              <TableCell>101</TableCell>
+              <TableCell>Code for Interview</TableCell>
+              <TableCell>example.@gmail.com</TableCell>
+              <TableCell>20238</TableCell>
+              <TableCell>24</TableCell>
+              <TableCell>Remove</TableCell>
+           </TableRow>
+          </TableBody>
         </Table>
       </Box>
     </Box>
