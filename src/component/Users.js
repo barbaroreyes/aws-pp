@@ -14,9 +14,7 @@ const Users = () => {
               <TableCell>Salary</TableCell>
               <TableCell>Salary</TableCell>
               <TableCell>Remove Entry</TableCell>
-
-
-            </TableRow>
+           </TableRow>
           </TableHead>
         </Table>
       </Box>
