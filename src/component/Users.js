@@ -1,8 +1,11 @@
-import {Box ,Table,TableBody,TableCell,TableHead,TableRow,Typography} from "@mui/material"
-
+import {Box ,Table,TableBody,TableCell,TableHead,TableRow,Typography,styled} from "@mui/material"
+const Component = styled(Box)`
+width:80%;
+margin:50px auto;
+`
 const Users = () => {
   return (
-    <Box>
+    <Component>
       <Typography variant="h4">Users</Typography>
       <Box>
         <Table>
@@ -28,7 +31,7 @@ const Users = () => {
           </TableBody>
         </Table>
       </Box>
-    </Box>
+    </Component>
   );
 }
 
