@@ -7,11 +7,11 @@ margin:50px auto;
 & > h4{
   margin-bottom:20px;
 }
-& > div> table > thead{
+& > div > table > thead{
   background-color:#000;
   font-weight: 600;
 }
-& > div> table > thead >tr >th{
+& > div> table > thead >tr > th{
   color:#fff;
   font-size:16px;
 }
